@@ -21,6 +21,7 @@
   border: 1px solid transparent;
   background: linear-gradient(135deg, #4de7c1, #e8e884, #c08af2);
 }
+
 .sora {
   font-family: var(--font-sora);
 }
