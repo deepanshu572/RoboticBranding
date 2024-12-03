@@ -15,7 +15,7 @@
   
     <div class="main w-full h-full bg-[#0e0c15] relative">
       <!-- NavBar Html -->
-      <div class=" border-[1px]  border-[#3b3b3b93] border-solid absolute w-[95%] h-full ml-[2.5%]"></div>
+      <div class="border-[1px]  border-[#3b3b3b93] border-solid absolute w-[95%] h-full ml-[2.5%]"></div>
       <div
         class="navbar z-[1080] flex items-center justify-between border-b-[0.7px] border-solid bg-[#0e0c15cf] border-b-[#2c2b2b] backdrop-blur-[4px] fixed w-full  code px-[20px] pr-[30px] lg:px-8 py-6 lg:pl-[20px] lg:pr-[30px]"
       >
@@ -328,7 +328,7 @@
       </div>
       <!-- Hero Section -->
       
-      <div class="feature_section relative p-7 mx-8 z-[999] border-b-[1px] border-[#3b3b3b93] border-solid pb-[7rem] ">
+      <div class="feature_section relative lg:p-7 lg:mx-8 z-[999] border-b-[1px] border-[#3b3b3b93] border-solid lg:pb-[7rem] ">
         <p class="left-top-plus absolute text-[2vw] bottom-[-16px] left-[-9px] text-[#fff]">
           +
         </p>
@@ -348,7 +348,7 @@
       <div
         class="feature_section_detail_wrap sora relative text-[#fff]  px-[4vw] z-[999] py-[8rem]"
       >
-      <div class="info_section flex justify-between">
+      <div class="info_section flex flex-col lg:flex-row justify-between">
         <div class="info_section_left">
           <h2 class=" w-[71%] text-[3.8vw] pb-[40px] leading-[54px]">AI Chat App for seamless collaboration</h2>
           <div class="info_text_tab">
@@ -428,12 +428,12 @@
       <h2 class="text-center text-[4vw]">Generative AI made for creators.</h2>
       <p class="text-center font-[300] text-[#7E718C]">Brainwave unlocks the potential of AI-powered applications</p>
     
-      <div class="creator_box1 relative overflow-hidden w-full h-[130vh] border-[1px] border-[#3b3b3b93] border-solid rounded-[25px] mt-[3rem]">
+      <div class="creator_box1 relative overflow-hidden w-full h-[43vh] lg:h-[130vh] border-[1px] border-[#3b3b3b93] border-solid rounded-[25px] mt-[3rem]">
        <div class="absolute left-[-26vw] opacity-[0.1]">
         <img src="https://jsm-brainwave.com/assets/gradient-BMjsV91j.png" alt="">
       </div>
-        <img class="absolute w-[70%]" src="Assests/img/creator1.webp" alt="">
-        <div class="creator_tab_box flex flex-col justify-center h-full ml-[65%] p-[30px]">
+        <img class="absolute lg:w-[70%]" src="Assests/img/creator1.webp" alt="">
+        <div class="creator_tab_box flex flex-col justify-center h-full lg:ml-[65%] lg:p-[30px]">
         <h3 class="text-[2.3vw]">Smartest AI</h3>
         <p class="text-[#9993AC] pt-[0.7rem] pb-[2.3rem]">Brainwave unlocks the potential of AI-powered applications</p>
         <div class="cretor_tab flex items-center gap-[10px] p-[10px] py-[15px] border-[1px] border-l-0 border-r-0 border-[#3b3b3b93] border-solid ">
@@ -454,8 +454,8 @@
         AI is generating
       </div>
       </div>
-      <div class="creator_box1 relative overflow-hidden w-full h-[130vh] mt-[3rem] flex justify-between">
-         <div class="relative border-[1px] border-[#3b3b3b93] border-solid rounded-[25px] w-[49%] overflow-hidden">
+      <div class="creator_box1 relative overflow-hidden w-full h-[130vh] mt-[3rem] flex flex-col justify-between lg:flex-row">
+         <div class="relative border-[1px] border-[#3b3b3b93] border-solid rounded-[25px] lg:w-[49%] overflow-hidden">
           <div class=" absolute rounded-t-xl rounded-bl-xl code px-[20px] py-[1.3rem] w-[50%] z-10 -translate-x-[50%] -translate-y-[50%] top-[15%] left-[50%] bg-black text-[#fff]">
             <p>Hey Brainwave, enhance this photo</p>
             <svg class="absolute left-full bottom-0" xmlns="http://www.w3.org/2000/svg" width="26" height="37"><path class="" d="M21.843 37.001c3.564 0 5.348-4.309 2.829-6.828L3.515 9.015A12 12 0 0 1 0 .53v36.471h21.843z"></path></svg>
@@ -468,7 +468,7 @@
           <p class="font-[300] text-[#A9A4BF]">Automatically enhance your photos using our AI app's photo editing feature. Try it now!</p>
         </div>
          </div> 
-         <div class="border-[1px] border-[#3b3b3b93] bg-[#15131D] border-solid rounded-[25px] w-[49%] p-[3rem] pt-[5rem] px-[1rem]">
+         <div class="border-[1px] border-[#3b3b3b93] bg-[#15131D] border-solid rounded-[25px] l:w-[49%] p-[3rem] pt-[5rem] px-[1rem]">
           <h2 class="text-[2.8vw] px-[3rem]">Video generation</h2>
           <p class="font-[300] px-[3rem] text-[#7E718C] py-[1rem]">The world’s most powerful AI photo and video art generation engine. What will you create?</p>
           <div class="flex items-center justify-between pb-[3rem]">
@@ -525,8 +525,77 @@
            </div>
           </div>
           </div>
-          <div class="">
-            <h2 class="text-center text-[#fff] font-">Pay once, use forever</h2>
+          <div>
+            <h2 class="text-center text-[#fff] text-[4vw] pb-8">Pay once, use forever</h2>
+            <div class="flex  flex-col items-center justify-center gap-[14px] lg:flex-row">
+              <div class="text-[#fff] w-[90%] lg:w-[30%] py-[2.6rem] border-[1px] sora border-[#3b3b3b93] border-solid p-7 rounded-3xl">
+                <h3 class="text-[#FFC876] text-[2.7vw]">Basic</h3>
+                <p class="text-[#A9A4BF]">AI chatbot, personalized recommendations</p>
+                <span class="flex gap-[3px] items-center sora"><h2 class="text-[3.4vw]">$</h2><h2 class="text-[7.2vw] font-[700]">0</h2></span>
+                <div class="relative bg-white rounded-tl-[7px] rounded-bl-[7px]  text-black flex items-center w-[90%] h-[44px] m-auto mb-6 justify-center">
+                  Get Started
+                  <svg class="absolute top-0 right-[-21.4px]" width="21" height="44" viewBox="0 0 21 44"><path fill="white" stroke="white" stroke-width="2" d="M0,43.00005 L5.028,43.00005 L12.24,43.00005 C16.526,43.00005 20,39.58105 20,35.36365 L20,16.85855 C20,14.59295 18.978,12.44425 17.209,10.99335 L7.187,2.77111 C5.792,1.62675 4.034,1 2.217,1 L0,1"></path></svg>
+                </div>
+                <div class="cretor_tab flex items-center gap-[10px] p-[10px] py-[20px] border-[1px] border-l-0 border-r-0 border-[#3b3b3b93] border-solid ">
+                  <img class="w-[1.3rem]" src="Assests/img/check.webp" alt="">
+                  <p>An AI chatbot that can understand your queries</p>
+                </div>
+                <div class="cretor_tab flex items-center gap-[10px] p-[10px] py-[20px] border-[1px] border-l-0 border-r-0 border-[#3b3b3b93] border-solid ">
+                  <img class="w-[1.3rem]" src="Assests/img/check.webp" alt="">
+                  <p>Personalized recommendations based on your preferences</p>
+                </div>
+                <div class="cretor_tab flex items-center gap-[10px] p-[10px] py-[20px] border-[1px] border-l-0 border-r-0 border-[#3b3b3b93] border-solid ">
+                  <img class="w-[1.3rem]" src="Assests/img/check.webp" alt="">
+                  <p>Ability to explore the app and its features without any cost</p>
+                </div>
+              </div>
+              <div class="text-[#fff] w-[90%] lg:w-[30%] py-[3.6rem] border-[1px] sora border-[#3b3b3b93] border-solid p-7 rounded-3xl">
+                <h3 class="text-[#AC6AFF] text-[2.7vw]">Premium</h3>
+                <p class="text-[#A9A4BF]">Advanced AI chatbot, priority support, analytics dashboard</p>
+                <span class="flex gap-[3px] items-center sora"><h2 class="text-[3.4vw]">$</h2><h2 class="text-[7.2vw] font-[700]">
+                  9.99</h2></span>
+                <div class="relative bg-white rounded-tl-[7px] rounded-bl-[7px]  text-black flex items-center w-[90%] h-[44px] m-auto mb-6 justify-center">
+                  Get Started
+                  <svg class="absolute top-0 right-[-21.4px]" width="21" height="44" viewBox="0 0 21 44"><path fill="white" stroke="white" stroke-width="2" d="M0,43.00005 L5.028,43.00005 L12.24,43.00005 C16.526,43.00005 20,39.58105 20,35.36365 L20,16.85855 C20,14.59295 18.978,12.44425 17.209,10.99335 L7.187,2.77111 C5.792,1.62675 4.034,1 2.217,1 L0,1"></path></svg>
+                </div>
+                <div class="cretor_tab flex items-center gap-[10px] p-[10px] py-[20px] border-[1px] border-l-0 border-r-0 border-[#3b3b3b93] border-solid ">
+                  <img class="w-[1.3rem]" src="Assests/img/check.webp" alt="">
+                  <p>An advanced AI chatbot that can understand complex queries</p>
+                </div>
+                <div class="cretor_tab flex items-center gap-[10px] p-[10px] py-[20px] border-[1px] border-l-0 border-r-0 border-[#3b3b3b93] border-solid ">
+                  <img class="w-[1.3rem]" src="Assests/img/check.webp" alt="">
+                  <p>An analytics dashboard to track your conversations</p>
+                </div>
+                <div class="cretor_tab flex items-center gap-[10px] p-[10px] py-[20px] border-[1px] border-l-0 border-r-0 border-[#3b3b3b93] border-solid ">
+                  <img class="w-[1.3rem]" src="Assests/img/check.webp" alt="">
+                  <p>Priority support to solve issues quickly</p>
+                </div>
+              </div>
+              <div class="text-[#fff] w-[90%] lg:w-[30%] py-[2.6rem] border-[1px] sora border-[#3b3b3b93] border-solid p-7 rounded-3xl">
+                <h3 class="text-[#FF776F] text-[2.7vw]">Enterprise</h3>
+                <p class="text-[#A9A4BF]">Custom AI chatbot, advanced analytics, dedicated account</p>
+                <span class="flex gap-[3px] items-center sora invisible"><h2 class="text-[3.4vw]">$</h2><h2 class="text-[7.2vw] font-[700]">0</h2></span>
+                <div class="btn_wrap gradient-border2 rounded-[6px] p-[2px] overflow-hidden w-full  mb-6 ">
+                  <button class="button  text-white rounded-[4px]  text-[16px]  h-[44px] w-full bg-[#0e0c15]">
+                    Contact Us
+                  </button>
+                </div>
+                <div class="cretor_tab flex items-center gap-[10px] p-[10px] py-[20px] border-[1px] border-l-0 border-r-0 border-[#3b3b3b93] border-solid ">
+                  <img class="w-[1.3rem]" src="Assests/img/check.webp" alt="">
+                  <p>An AI chatbot that can understand your queries</p>
+                </div>
+                <div class="cretor_tab flex items-center gap-[10px] p-[10px] py-[20px] border-[1px] border-l-0 border-r-0 border-[#3b3b3b93] border-solid ">
+                  <img class="w-[1.3rem]" src="Assests/img/check.webp" alt="">
+                  <p>Personalized recommendations based on your preferences</p>
+                </div>
+                <div class="cretor_tab flex items-center gap-[10px] p-[10px] py-[20px] border-[1px] border-l-0 border-r-0 border-[#3b3b3b93] border-solid ">
+                  <img class="w-[1.3rem]" src="Assests/img/check.webp" alt="">
+                  <p>Ability to explore the app and its features without any cost</p>
+                </div>
+              </div>
+             
+            </div>
+            <h2 class="underline code text-center uppercase text-[13px] font-[600] p-[3rem] text-[#fff]">See the full details</h2>
           </div>
     
     </div>
